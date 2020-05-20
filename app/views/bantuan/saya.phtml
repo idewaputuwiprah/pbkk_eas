@@ -1,0 +1,43 @@
+<?php
+
+echo "<h1>Bantuan saya</h1>";
+
+echo count($items);
+
+if (count($items) > 0) {
+    ?>
+    <table class="table table-bordered table-hover">
+        <thead class="thead-light">
+        <tr>
+            <th>Nama</th>
+            <th>Kategori</th>
+            <th>Jumlah</th>
+        </tr>
+        </thead>
+        <tfoot>
+        <tr>
+            <td colspan="3">quantity: <?php echo count($items); ?></td>
+        </tr>
+        </tfoot>
+        <tbody>
+        <?php for ($i=0; i<count($items); $i++) { ?>
+            <tr>
+                <td><?php echo $items[$i]->id_users; ?></td>
+                <td><?php echo $items[$i]->id_bantuan; ?></td>
+                <td><?php echo $items[$i]->created_at; ?></td>
+            </tr>
+        <?php } ?>
+        </tbody>
+    </table>
+    <?php
+}
+
+// echo $this->tag->linkTo(["bantuan/tambah", "Berikan Bantuan", 'class' => 'btn btn-primary']);
+
+// echo "<br>";
+
+// echo "<br>";
+
+// echo $this->tag->linkTo(["bantuan/saya", "Lihat bantuan saya", 'class' => 'btn btn-primary']);
+
+
