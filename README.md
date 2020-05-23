@@ -37,7 +37,7 @@ Setelah mengklik tombol "Tambah", maka user akan diarahkan ke Page menambah bant
 
 Setelah itu user memasukan banyaknya jenis barang yang ingin disumbangkan dan mengklik tombol "Submit". Setelah user mengklik tombol "Submit", maka akan muncul form untuk memasukan barang sesuai dengan banyaknya jenis barang yang ingin disumbangkan
 
-![](image/InputBantuanForm.png)
+![](image/InputBantuanForm2.png)
 
 Setelah mengisikan data barang yang ingin di sumbangkan, maka user mengklik tombol "Submit" berwarna biru, setelah itu user akan diarahkan ke page List Bantuan dan akan muncul notifikasi bahwa data sudah berhasil disimpan 
 
