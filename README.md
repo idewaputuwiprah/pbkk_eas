@@ -27,12 +27,6 @@ Setelah melakukan Login, maka user dapat melihat list bantuan semua user
 
 ![](image/ListBantuan.png)
 
-# Fitur search
-
-User dapat melakukan pencarian terhadap kategori dengan mengetikan kategori yang diinginkan pada search bar
-
-![](image/ListBantuan.png)
-
 Untuk membuat bantuan, user mengklik tombol "Tambah" dan akan diarahkan ke Page menambah bantuan
 
 # Menambah bantuan
